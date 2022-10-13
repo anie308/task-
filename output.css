@@ -651,6 +651,10 @@ video {
   height: 190px;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -683,6 +687,14 @@ video {
   width: 1rem;
 }
 
+.w-0\.5 {
+  width: 0.125rem;
+}
+
+.w-0 {
+  width: 0px;
+}
+
 .rotate-45 {
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -690,6 +702,11 @@ video {
 
 .rotate-90 {
   --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -743,6 +760,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -857,6 +880,58 @@ video {
 
   .md\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-\[15px\] {
+    margin-bottom: 15px;
+  }
+
+  .md\:mb-\[5px\] {
+    margin-bottom: 5px;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+
+  .md\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+
+  .md\:mb-\[25px\] {
+    margin-bottom: 25px;
+  }
+
+  .md\:mt-\[25px\] {
+    margin-top: 25px;
+  }
+
+  .md\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .md\:mt-\[1-0px\] {
+    margin-top: 1-0px;
+  }
+
+  .md\:mt-\[-10px\] {
+    margin-top: -10px;
+  }
+
+  .md\:mb-\[-10px\] {
+    margin-bottom: -10px;
   }
 
   .md\:h-full {
